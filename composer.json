@@ -1,5 +1,5 @@
 {
-    "name": "kodingcms/laravel-package",
+    "name": "kodingcms/laravel-package-template",
     "license": "MIT",
     "authors": [
         {
@@ -10,13 +10,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Kms\\": "src/"
+            "Kcms\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Kms\\Core\\Providers\\CoreServiceProvider"
+                "Kcms\\Core\\Providers\\CoreServiceProvider"
             ],
             "aliases": { }
         }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Kms\Core\Providers;
+namespace Kcms\Core\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
