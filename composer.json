@@ -1,0 +1,25 @@
+{
+    "name": "kms/laravel-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hoang Tu",
+            "email": "vohoangtu0409@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kms\\Core\\Providers\\CoreServiceProvider"
+            ],
+            "aliases": { }
+        }
+    },
+    "minimum-stability": "dev"
+}
