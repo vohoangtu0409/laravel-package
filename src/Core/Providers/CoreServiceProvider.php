@@ -3,6 +3,7 @@
 namespace Kcms\Core\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Kcms\Core\Command;
 
 class CoreServiceProvider extends ServiceProvider{
 
@@ -13,7 +14,7 @@ class CoreServiceProvider extends ServiceProvider{
      */
     public function boot()
     {
-        
+        $this->commands(InstallCommand::class);
     }
 
     /**
